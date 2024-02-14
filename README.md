@@ -35,7 +35,7 @@ In the digital design realm, crafting visually compelling and crisp graphics is 
 
 <div align="center">
     <a href="https://scottgriv.github.io/Resolution-Scale-Calculator/" target="_blank">
-        <img src="./docs/images/demo.png" style="width: 50%;"/>
+        <img src="./docs/images/demo.png" style="width: 80%;"/>
     </a>
     <br>
     <i>Application Preview</i>
