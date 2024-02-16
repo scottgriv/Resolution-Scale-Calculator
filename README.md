@@ -26,7 +26,7 @@
 Scale design dimensions (width and height) up or down for @1x, @2, and @3x resolutions.
 - Use the application on GitHub Pages **[Here](https://scottgriv.github.io/Resolution-Scale-Calculator/)**.
 
-In the digital design realm, crafting visually compelling and crisp graphics is pivotal. The **Resolution Scale Calculator** emerges as a handly little tool for designers and developers eager to recreate or adapt designs inspired by existing website elements. Here's why incorporating this calculator into your design toolkit is beneficial:
+In the digital design realm, crafting visually compelling and crisp graphics is pivotal. The **Resolution Scale Calculator** emerges as a handy little tool for designers and developers eager to recreate or adapt designs inspired by existing website elements. Here's why incorporating this calculator into your design toolkit is beneficial:
 
 - **Facilitate Design Recreation:** Encounter a design element on a website that resonates with your project's aesthetic? Our tool empowers you to ascertain the dimensions of images or designs, often optimized for high-density displays (@3x), and scale them down accurately to @1x. This foundational step is crucial for vector-based designs, ensuring scalability and adaptability.
 - **Vector Design Best Practices:** Vectors are the backbone of versatile design, enabling flawless scaling to accommodate various resolutions. Starting your design process at @1x is a best practice that guarantees ease of scaling up for exports without compromising on quality. The Resolution Scaling Calculator simplifies this process, ensuring that your vectors are primed for perfection from the outset.
