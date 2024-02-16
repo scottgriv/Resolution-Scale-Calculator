@@ -15,7 +15,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 **Repository Tier:** Silver <br>
 **Technology:** JavaScript, HTML, CSS <br>
 **Category:** Design, Web Application <br>
-**Order:** 10 <br>
+**Order:** 6 <br>
 
 ## Parameters
 
