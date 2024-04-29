@@ -23,8 +23,9 @@
 
 <h1 align="center">Resolution Scale Calculator</h1>
 
-Scale design dimensions (width and height) up or down for @1x, @2, and @3x resolutions.
+Scale design dimensions (width and height) up or down for @1x, @1.5x, @2, @3x, @4x, and custom @Nx resolutions.
 - Use the application on GitHub Pages **[Here](https://scottgriv.github.io/Resolution-Scale-Calculator/)**.
+- Especially useful for Web, iOS mobile app, and Android mobile app designers.
 
 In the digital design realm, crafting visually compelling and crisp graphics is pivotal. The **Resolution Scale Calculator** emerges as a handy little tool for designers and developers eager to recreate or adapt designs inspired by existing website elements. Here's why incorporating this calculator into your design toolkit is beneficial:
 
@@ -60,7 +61,11 @@ In the digital design realm, crafting visually compelling and crisp graphics is 
 </div>
 <br>
 
-Simply input the dimensions (Width x Height) and select the scale (@1x, @2x, or @3x) to see scaled dimensions instantly, optimizing asset performance and consistency.
+Simply input the dimensions (Width x Height) and select the scale (@1x, @1.5x, @2x, @3x, @4x, or a custom @Nx) to see scaled dimensions instantly, optimizing asset performance and consistency.
+
+> [!NOTE]
+> To run locally if you decide to make changes to the code, simply click on the `index.html` file to view the project in your browser.
+> It's written in pure HTML/CSS/JavaScript, so there's no need to host it on a web server. Enjoy!
 
 ## Resources
 

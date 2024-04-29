@@ -12,6 +12,7 @@
     <link rel="manifest" href="./images/favicons/site.webmanifest">
     <link rel="mask-icon" href="./images/favicons/safari-pinned-tab.svg" color="#007bff">
     <link rel="shortcut icon" href="./images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Res Scale Calc">
     <meta name="msapplication-TileColor" content="#007bff">
     <meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
     <meta name="theme-color" content="#007bff">
@@ -32,24 +33,28 @@
         <div id="description">
             <h2>Why Use This Calculator?</h2>
             <p>
-                The <b>Resolution Scale Calculator</b> helps designers and developers quickly scale images and UI elements for web and mobile apps, ensuring sharp and consistent designs across all device resolutions. Input the dimensions and select the scale (@1x, @2x, or @3x) to see scaled dimensions instantly, optimizing asset performance and consistency.
+                The <b>Resolution Scale Calculator</b> helps designers and developers quickly scale images and UI elements for Web, iOS mobile apps, and Android mobile apps, ensuring sharp and consistent designs across all device resolutions. Input the dimensions and select the scale (@1x, @1.5x, @2x, @3x, @4x, or a custom @Nx) to see scaled dimensions instantly, optimizing asset performance and consistency.
             </p>
             <p>
                 For vector graphics, designing at @1x is ideal, as vectors scale up flawlessly, ensuring flexible, high-quality designs across resolutions. Raster images, however, should start at the highest needed resolution and be scaled down to prevent quality loss.
             </p>
             <p>
-                This little handy tool is great for adapting vector designs at higher scales (e.g., @3x) back to their original @1x size, streamlining the workflow for asset adaptation across platforms and maintaining design integrity. It eliminates the guesswork in scaling, enhancing efficiency and precision in digital asset preparation.
+                This little handy tool is great for adapting vector designs at higher scales (e.g., @4x) back to their original @1x size, streamlining the workflow for asset adaptation across platforms and maintaining design integrity. It eliminates the guesswork in scaling, enhancing efficiency and precision in digital asset preparation.
             </p>
         </div>
         <div class="right-container">
             <form id="scaleCalculator">
-                <input type="number" id="width" placeholder="Width">
-                <input type="number" id="height" placeholder="Height">
+                <input type="number" id="width" placeholder="Width" step="0.001">
+                <input type="number" id="height" placeholder="Height" step="0.001"> 
                 <select id="scale">
                     <option value="1">@1x</option>
+                    <option value="1.5">@1.5x</option>
                     <option value="2">@2x</option>
                     <option value="3">@3x</option>
+                    <option value="4">@4x</option>
+                    <option value="custom">Custom</option>
                 </select>
+                <input type="number" id="customScale" placeholder="Enter custom @Nx scale" step="0.001" style="display: none;">
                 <button type="submit">Calculate</button>
             </form>
             <div id="result"></div>
